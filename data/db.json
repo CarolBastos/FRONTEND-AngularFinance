@@ -535,15 +535,21 @@
       "dataMovimentacao": "2025-02-02"
     },
     {
-      "id": 8648,
+      "id": "8648",
       "tipoMovimentacao": "DEPOSITO",
       "valor": 100,
       "dataMovimentacao": "2025-02-03"
     },
     {
-      "id": 1758,
+      "id": "1758",
       "tipoMovimentacao": "DEPOSITO",
       "valor": 100,
+      "dataMovimentacao": "2025-02-03"
+    },
+    {
+      "id": 4854,
+      "tipoMovimentacao": "DEPOSITO",
+      "valor": 101,
       "dataMovimentacao": "2025-02-03"
     }
   ]

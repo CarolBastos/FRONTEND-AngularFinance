@@ -8,6 +8,7 @@ import { CardSaldoModule } from "./modules/card-saldo/card-saldo.module";
 import { StoreModule } from '@ngrx/store';
 import { transacaoReducer } from './store/transacao.reducer';
 import { NovaTransacaoModule } from "./modules/nova-transacao/nova-transacao.module";
+import { ListarTransacoesModule } from './modules/listar-transacoes/listar-transacoes.module';
 
 @NgModule({
   declarations: [InicioComponent],
@@ -20,7 +21,8 @@ import { NovaTransacaoModule } from "./modules/nova-transacao/nova-transacao.mod
     StoreModule.forRoot({
         transacao: transacaoReducer
     }),
-    NovaTransacaoModule
+    NovaTransacaoModule,
+    ListarTransacoesModule
 ]
 })
 export class InicioModule { }
